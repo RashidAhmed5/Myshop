@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//LogMeIn//GoToWebinar//EN
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Asia/Singapore
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Singapore
+X-LIC-LOCATION:Asia/Singapore
+BEGIN:STANDARD
+TZNAME:+08
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211103T053107Z
+DTSTART;TZID=Asia/Singapore:20211124T100000
+DTEND;TZID=Asia/Singapore:20211124T113000
+SUMMARY:GoToWebinar - Getting Started with the AWS Cloud Essentials - 24 
+ November
+LOCATION:GoToWebinar - See conference call information below
+UID:1667772733@logmein.com
+ORGANIZER:daisylv@amazon.com
+DESCRIPTION:1. Click and join at the specified time and date:\nhttps://gl
+ obal.gotowebinar.com/join/8752493403848420875/679156940\nNote: This link
+  should not be shared with others\; it is unique to you.\n\nLearn about 
+ the foundations of getting started the AWS Cloud. You'll learn about the
+  AWS Cloud architecture and services in the Compute\, Storage\, Database
+ \, Networking\, and Security categories. You can build and validate an o
+ verall understanding of the AWS Cloud and to help advance your skills.\n
+ \n
+X-ALT-DESC;FMTTYPE=text/html:<HTML><HEAD><TITLE></TITLE><BODY><FONT SIZE=
+ 2><b>1. Click and join at the specified time and date:</b></FONT><BR><FO
+ NT SIZE=2>https://global.gotowebinar.com/join/8752493403848420875/679156
+ 940</FONT><BR><FONT SIZE=2>Note: This link should not be shared with oth
+ ers\; it is unique to you.</FONT><BR><BR><FONT SIZE=2>Learn about the fo
+ undations of getting started the AWS Cloud. You'll learn about the AWS C
+ loud architecture and services in the Compute\, Storage\, Database\, Net
+ working\, and Security categories. You can build and validate an overall
+  understanding of the AWS Cloud and to help advance your skills.\n</FONT
+ ><BR></BODY></HTML>
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
