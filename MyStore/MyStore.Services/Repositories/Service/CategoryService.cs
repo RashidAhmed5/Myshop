@@ -65,7 +65,7 @@ namespace MyStore.Services.Repositories.Service
             {
                 db_Category.Name = category.Name;
                 db_Category.Description = category.Description;
-               
+
             }
 
             await dbContext.SaveChangesAsync();
